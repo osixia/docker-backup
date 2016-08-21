@@ -60,7 +60,7 @@ Environment variables defaults are set in **image/environment/default.yaml**
 See how to [set your own environment variables](#set-your-own-environment-variables)
 
 
-- **BACKUP_INPUT**: Directories to backup: paths without spaces in their name. Defaults to `/data/input /data/input2`.
+- **BACKUP_INPUT**: Directory to backup. Defaults to `/data/input`.
 
 
 - **BACKUP_OUTPUT**: Directorie to save backups in. Defaults to `/data/backup`.

@@ -3,4 +3,4 @@
 # Usage: /sbin/restore file
 file=$1
 
-tar -xzf $file -C /
+tar -xzf $BACKUP_OUTPUT/$file -C /

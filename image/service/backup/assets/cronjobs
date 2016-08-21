@@ -1,2 +1,2 @@
 # Backup
-{{ BACKUP_INPUT }} root /sbin/backup 2>&1 | /usr/bin/logger -s -t backup
+{{ BACKUP_CRON_EXP }} root /sbin/backup 2>&1 | /usr/bin/logger -s -t backup

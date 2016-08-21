@@ -1,5 +1,5 @@
 # Directories to backup: paths without spaces in their name
-BACKUP_INPUT: /data/input /data/input2
+BACKUP_INPUT: /data/input
 BACKUP_OUTPUT: /data/backup
 
 # Run backup at 4:00am
