@@ -1,0 +1,2 @@
+# Backup
+{{ BACKUP_INPUT }} root /sbin/backup 2>&1 | /usr/bin/logger -s -t backup

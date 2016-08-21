@@ -1,0 +1,9 @@
+# Directories to backup: paths without spaces in their name
+BACKUP_INPUT: /data/input /data/input2
+BACKUP_OUTPUT: /data/backup
+
+# Run backup at 4:00am
+BACKUP_CRON_EXP: 0 4 * * *
+
+# Delete backups that are over 15 days
+BACKUP_TTL: 15

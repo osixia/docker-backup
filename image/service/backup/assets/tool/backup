@@ -1,0 +1,14 @@
+#!/bin/bash -e
+
+# Usage: /sbin/backup
+
+source /container/run/environment.sh
+
+# delete backups that are over $MMC_MAIL_BACKUP_TTL days
+find $BACKUP_OUTPUT -type f -mtime +$BACKUP_TTL -exec rm {} \;
+
+# Date format for the dump file name
+dateFileFormat="+%F-%T"
+backupFilePath="$BACKUP_OUTPUT/$(date "$dateFileFormat").tar.gz"
+
+tar -czf $backupFilePath -C $BACKUP_INPUT

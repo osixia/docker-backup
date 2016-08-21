@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+# Usage: /sbin/restore file
+file=$1
+
+tar -xzf $file -C /
