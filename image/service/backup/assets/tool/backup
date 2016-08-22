@@ -8,7 +8,7 @@ source /container/run/environment.sh
 find $BACKUP_OUTPUT -type f -mtime +$BACKUP_TTL -exec rm {} \;
 
 # Date format for the dump file name
-dateFileFormat="+%F-%T"
+dateFileFormat="+%Y%m%dT%H%M%S"
 backupFilePath="$BACKUP_OUTPUT/$(date "$dateFileFormat").tar.gz"
 
-tar -czf $backupFilePath -C $BACKUP_INPUT
+tar -czf $backupFilePath $BACKUP_INPUT
