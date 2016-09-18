@@ -2,12 +2,13 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/osixia/backup.svg)][hub]
 [![Docker Stars](https://img.shields.io/docker/stars/osixia/backup.svg)][hub]
+[![](https://images.microbadger.com/badges/image/osixia/backup.svg)](http://microbadger.com/images/osixia/backup "Get your own image badge on microbadger.com")
 
 [hub]: https://hub.docker.com/r/osixia/backup/
 
 Latest release: 0.1.0 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/backup/) 
 
-An image to run periodically backup directories.
+**A docker image to periodically backup directories.**
 
 - [Quick start](#quick-start)
 - [Beginner Guide](#beginner-guide)
