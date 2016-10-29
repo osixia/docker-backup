@@ -6,3 +6,5 @@ file=$1
 source /container/run/environment.sh
 
 tar -xzf $BACKUP_OUTPUT/$file -C /
+
+exit 0
